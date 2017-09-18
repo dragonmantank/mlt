@@ -23,6 +23,7 @@
 
 #if defined(Q_OS_UNIX) && !defined(Q_OS_MAC)
 #include <X11/Xlib.h>
+#include <string.h>
 #include <cstdlib>
 #endif
 
